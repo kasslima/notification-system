@@ -1,0 +1,27 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# arquivos gerados
+*.out
+*.test
+*.log
+
+# diretórios de build
+/bin/
+/dist/
+
+# arquivos locais
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# coverage
+coverage.out
+
+# cache opcional (se existir localmente)
+tmp/
